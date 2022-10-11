@@ -5,8 +5,7 @@ import './hero_banner.css';
 const HeroBanner = () => {
     return (
         <div className='heroBanner'>
-            <h1>Arrow F(x)</h1>
-            <p>The Free API Hub</p>
+            <h1>The Free API Hub</h1>
             <img src={splashImg} alt="generic splash" />
         </div>
     )
