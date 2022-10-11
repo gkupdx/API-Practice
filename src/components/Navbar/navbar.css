@@ -5,6 +5,7 @@
     justify-content: space-between;
     color: #f4f4f4;
     background-color: #F9F2F2; 
+    border-bottom: 1px solid #333;
 }
 
 .navbar button {
