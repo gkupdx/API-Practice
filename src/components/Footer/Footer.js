@@ -1,7 +1,8 @@
 import React from 'react';
 import './footer.css';
 
-import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiHashnode } from 'react-icons/si';
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
             <div className='social'>
                 <a href="#github"><FaGithub /></a>
                 <a href="#linkedin"><FaLinkedin /></a>
-                <a href="#medium"><FaMedium /></a>
+                <a href="#hashnode"><SiHashnode /></a>
             </div>
         </footer>
     )
