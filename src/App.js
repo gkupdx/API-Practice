@@ -2,8 +2,9 @@
 
 import Navbar from './components/Navbar/Navbar';
 import HeroBanner from './components/HeroBanner/HeroBanner';
+import Docs from './components/Docs/Docs';
 import CardList from './components/CardList/CardList';
-import ApiList from './components/ApiList/ApiList';
+import ApiPage from './components/ApiPage/ApiPage';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -20,6 +21,7 @@ function App() {
           <>
             <Navbar />
             <HeroBanner />
+            <Docs />
             <CardList />
             <Footer />
           </>
@@ -28,7 +30,7 @@ function App() {
         <Route path='/api-list' element={
           <>
             <Navbar />
-            <ApiList />
+            <ApiPage />
             <Footer />
           </>
         } />
