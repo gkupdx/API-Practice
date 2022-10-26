@@ -1,5 +1,44 @@
 .cardList {
-    height: 700px;
+    height: 750px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    background-color: #333;
+}
+
+.cardList button {
+    width: 225px;
+    height: 50px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    align-self: center;
+}
+
+.cardList button:hover {
+    cursor: pointer;
+}
+
+.apiDropdown {
+    width: 225px;
+    height: 75px;
+    background-color: #FFF;
+    align-self: center;
+}
+
+.apiDropdown p {
+    width: 225px;
+    height: 25px;
+    align-self: center;
+}
+
+.apiDropdown p:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.bg-grey {
+    background-color: lightgrey;
 }
